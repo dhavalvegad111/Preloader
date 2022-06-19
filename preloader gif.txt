@@ -7,7 +7,6 @@
   </body>  
 
 
-
 //////////////////style.css/////////////////////
 /* Preloader gif */
 
@@ -36,3 +35,11 @@
     visibility: hidden;
   }
 }
+
+//////////////////script.js/////////////////
+//jQuery
+//preloader//
+      const win = $(window);
+      win.on("load", () => $(".loader").fadeOut('800'));
+      
+      
