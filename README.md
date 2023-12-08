@@ -1,2 +1,2 @@
-# preloader_gif
-Website pre-loader gif
+# preloader css
+preloader css
