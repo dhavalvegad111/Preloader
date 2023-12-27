@@ -87,9 +87,6 @@
     <div id="preloader">
         <div id="loader"></div>
     </div>
-    <div>
-        <!-- content -->
-    </div>
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -97,8 +94,8 @@
     <script>
         $(document).ready(function(){
             //preloader//
-            const win = $(window);
-            win.on("load", () => $("#preloader").fadeOut('800'));
+            const window_load = $(window);
+            window_load.on("load", () => $("#preloader").fadeOut('800'));
         });
     </script>
 </body>
